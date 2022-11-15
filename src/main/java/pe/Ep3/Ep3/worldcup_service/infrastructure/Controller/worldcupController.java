@@ -13,7 +13,7 @@ import pe.Ep3.Ep3.worldcup_service.infrastructure.response.BasicResponse;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/v1")
+@RequestMapping("/api/v1")
 public class worldcupController {
     @Autowired
     private worldcupService worldcupService;
